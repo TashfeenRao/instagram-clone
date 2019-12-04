@@ -6,7 +6,6 @@ h3 {
 .playstore{
     font: 95% Arial, Helvetica, sans-serif;
 	max-width: 400px;
-    margin: 10px auto;
     text-align: center;
 }
 .google{
@@ -59,7 +58,6 @@ h3.background {
 	font: 95% Arial, Helvetica, sans-serif;
     max-width: 400px;
     text-align: center;
-	margin: 10px auto;
 	padding: 16px;
 	background: #F7F7F7;
 }
@@ -124,7 +122,7 @@ h3.background {
     padding: 3%;
     cursor: pointer;
 	background: #3897f0;
-	border-bottom: 2px solid #3897f0;
+	border-bottom: 1px solid #3897f0;
 	border-top-style: none;
 	border-right-style: none;
 	border-left-style: none;	
@@ -132,17 +130,22 @@ h3.background {
 }
 .form-style-6 input[type="submit"]:hover,
 .form-style-6 input[type="button"]:hover{
-	background: #2EBC99;
+    background: #3897f0;
 }
 .footer{
     list-style: none;
     text-decoration: none;
 }
 .footer li{
-    display: flex;
-    flex-grow: 1;
+    flex: .1;
 }
 .footer li a{
     text-decoration: none;
     color: #003569;
+}
+
+@media (max-width: 768px){
+    .form{
+        justify-content: center;
+    }
 }
