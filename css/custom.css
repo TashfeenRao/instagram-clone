@@ -135,6 +135,7 @@ h3.background {
 .footer{
     list-style: none;
     text-decoration: none;
+    justify-content: center;
 }
 .footer li{
     flex: .1;
@@ -147,5 +148,8 @@ h3.background {
 @media (max-width: 768px){
     .form{
         justify-content: center;
+    }
+    .footer li{
+        flex: 1;
     }
 }
