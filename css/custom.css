@@ -12,20 +12,25 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
+
 .playstore {
   font: 95% Arial, Helvetica, sans-serif;
   max-width: 400px;
   text-align: center;
 }
+
 .google {
   width: 100px;
 }
+
 .apple {
   width: 100px;
 }
+
 .get-app {
   text-align: center;
 }
+
 .sign-up a {
   text-decoration: none;
   padding-left: 5px;
@@ -36,18 +41,22 @@ body {
   text-decoration: none;
   color: #385185;
 }
+
 .icon a {
   text-decoration: none;
   color: #385185;
 }
+
 .icon a i {
   padding-right: 5px;
   font-size: large;
 }
+
 .background {
   position: relative;
   z-index: 1;
 }
+
 .background::before {
   border-top: 1px solid #efefef;
   content: "";
@@ -66,6 +75,7 @@ span {
   background: #fff;
   padding: 0 15px;
 }
+
 .insta-form {
   font: 95% Arial, Helvetica, sans-serif;
   max-width: 400px;
@@ -73,6 +83,7 @@ span {
   padding: 16px;
   background: #ffffff;
 }
+
 .insta-form input[type="text"],
 .insta-form input[type="date"],
 .insta-form input[type="datetime"],
@@ -97,6 +108,7 @@ span {
   color: #555;
   font: 95% Arial, Helvetica, sans-serif;
 }
+
 .insta-form input[type="text"]:focus,
 .insta-form input[type="date"]:focus,
 .insta-form input[type="datetime"]:focus,
@@ -125,18 +137,22 @@ span {
   border-left-style: none;
   color: #fff;
 }
+
 .insta-form input[type="submit"]:hover,
 .insta-form input[type="button"]:hover {
   background: #3897f0;
 }
+
 .footer {
   list-style: none;
   text-decoration: none;
   justify-content: center;
 }
+
 .footer li {
   flex: 1;
 }
+
 .footer li a {
   text-decoration: none;
   color: #003569;
@@ -146,6 +162,7 @@ span {
   .form {
     justify-content: center;
   }
+
   .footer li {
     flex: 1;
   }
@@ -161,7 +178,6 @@ span {
 .border-all-darkgray {
   border: 1px solid var(--gray);
 }
-
 
 .flex-item-x1 {
   flex: 1;
@@ -209,6 +225,7 @@ span {
 .pd-0 {
   padding: 0 0 0 0;
 }
+
 .pd-5 {
   padding: 50px 50px 20px 50px;
 }
