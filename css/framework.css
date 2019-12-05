@@ -1149,7 +1149,7 @@
 .mx-auto {
   margin-left: auto;
 }
-   
+
 @media (min-width: 768px) {
   .m-md-0 {
     margin: 0;
@@ -1202,7 +1202,7 @@
   .m-md-2 {
     margin: 0.5rem;
   }
-  
+
   .mt-md-2,
   .my-md-2 {
     margin-top: 0.5rem;
@@ -1317,6 +1317,7 @@
   .px-md-0 {
     padding-left: 0;
   }
+
   .p-md-1 {
     padding: 0.25rem;
   }
@@ -2059,10 +2060,6 @@
   background-color: #dc3545;
 }
 
-.bg-white {
-  background-color: #f8f9fa;
-}
-
 .bg-dark {
   background-color: #343a40;
 }
@@ -2090,6 +2087,7 @@
 .bg-whitesmoke {
   background-color: whitesmoke;
 }
+
 .bg-transparent {
   background-color: transparent;
 }
@@ -2212,10 +2210,6 @@
 
 .rounded-0 {
   border-radius: 0;
-}
-
-.d-none {
-  display: none;
 }
 
 .font-normal {
