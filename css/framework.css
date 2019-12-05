@@ -357,9 +357,11 @@
   .d-m-none {
     display: none;
   }
+
   .d-m-flex {
     display: flex;
   }
+
   .d-m-inline-flex {
     display: inline-flex;
   }
@@ -369,9 +371,11 @@
   .d-l-none {
     display: none;
   }
+
   .d-l-flex {
     display: flex;
   }
+
   .d-l-inline-flex {
     display: inline-flex;
   }
@@ -836,6 +840,7 @@
     align-self: center;
   }
 }
+
 .text-align-end {
   text-align: end;
 }
