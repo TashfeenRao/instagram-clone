@@ -1,0 +1,229 @@
+:root {
+  --gray: #e6e6e6;
+  --darkgray: #999;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+.background {
+  margin-top: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+}
+
+.playstore {
+  font: 95% Arial, Helvetica, sans-serif;
+  max-width: 400px;
+  text-align: center;
+}
+
+.google {
+  width: 100px;
+}
+
+.apple {
+  width: 100px;
+}
+
+.get-app {
+  text-align: center;
+}
+
+.sign-up a {
+  text-decoration: none;
+  padding-left: 5px;
+  color: #3897f0;
+}
+
+.icon {
+  text-align: center;
+  text-decoration: none;
+  color: #385185;
+}
+
+.icon a {
+  text-decoration: none;
+  color: #385185;
+}
+
+.icon a i {
+  padding-right: 5px;
+  font-size: large;
+}
+
+.background::before {
+  border-top: 1px solid #efefef;
+  content: "";
+  margin: 0 auto; /* this centers the line to the full width specified */
+  position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 95%;
+  z-index: -1;
+}
+
+span {
+  /* to hide the lines from behind the text, you have to set the background color the same as the container */
+  background: #fff;
+  padding: 0 15px;
+}
+
+.insta-form {
+  font: 95% Arial, Helvetica, sans-serif;
+  max-width: 400px;
+  text-align: center;
+  padding: 16px;
+  background: #fff;
+}
+
+.insta-form input[type="text"],
+.insta-form input[type="date"],
+.insta-form input[type="datetime"],
+.insta-form input[type="email"],
+.insta-form input[type="password"],
+.insta-form input[type="search"],
+.insta-form input[type="number"],
+.insta-form input[type="time"],
+.insta-form input[type="url"],
+.insta-form textarea,
+.insta-form select {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  outline: none;
+  width: 90%;
+  background: #fff;
+  margin-bottom: 4%;
+  border: 1px solid #ccc;
+  padding: 3%;
+  color: #555;
+  font: 95% Arial, Helvetica, sans-serif;
+}
+
+.insta-form input[type="text"]:focus,
+.insta-form input[type="date"]:focus,
+.insta-form input[type="datetime"]:focus,
+.insta-form input[type="email"]:focus,
+.insta-form input[type="password"]:focus,
+.insta-form input[type="number"]:focus,
+.insta-form input[type="search"]:focus,
+.insta-form input[type="time"]:focus,
+.insta-form input[type="url"]:focus,
+.insta-form textarea:focus,
+.insta-form select:focus {
+  box-shadow: 0 0 5px #43d1af;
+  padding: 3%;
+  border: 1px solid #43d1af;
+}
+
+.insta-form input[type="submit"],
+.insta-form input[type="button"] {
+  width: 90%;
+  padding: 3%;
+  cursor: pointer;
+  background: #3897f0;
+  border-bottom: 1px solid #3897f0;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  color: #fff;
+}
+
+.insta-form input[type="submit"]:hover,
+.insta-form input[type="button"]:hover {
+  background: #3897f0;
+}
+
+.footer {
+  list-style: none;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.footer li {
+  flex: 1;
+}
+
+.footer li a {
+  text-decoration: none;
+  color: #003569;
+}
+
+@media (max-width: 768px) {
+  .form {
+    justify-content: center;
+  }
+
+  .footer li {
+    flex: 1;
+  }
+}
+
+.copyright {
+  font-size: 0.8rem;
+  color: var(--darkgray);
+  display: flex;
+  flex: 2;
+}
+
+.border-all-darkgray {
+  border: 1px solid var(--gray);
+}
+
+.flex-item-x1 {
+  flex: 1;
+}
+
+.flex-item-x2 {
+  flex: 2;
+}
+
+.size-1 {
+  height: 10%;
+  width: 10%;
+}
+
+.size-2 {
+  height: 20%;
+  width: 20%;
+}
+
+.size-3 {
+  height: 30%;
+  width: 30%;
+}
+
+.size-4 {
+  height: 40%;
+  width: 40%;
+}
+
+.size-5 {
+  height: 50%;
+  width: 50%;
+}
+
+.size-6 {
+  height: 60%;
+  width: 60%;
+}
+
+.size-7 {
+  height: 70%;
+  width: 70%;
+}
+
+.pd-0 {
+  padding: 0 0 0 0;
+}
+
+.pd-5 {
+  padding: 50px 50px 20px 50px;
+}
