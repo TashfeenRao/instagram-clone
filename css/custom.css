@@ -1,6 +1,6 @@
 :root {
   --gray: #e6e6e6;
-  --darkgray: #999999;
+  --darkgray: #999;
 }
 
 body {
@@ -78,7 +78,7 @@ span {
   max-width: 400px;
   text-align: center;
   padding: 16px;
-  background: #ffffff;
+  background: #fff;
 }
 
 .insta-form input[type="text"],
