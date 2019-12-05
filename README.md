@@ -74,11 +74,11 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 
  Tashfeen -raotashfeen25@gmail.com
- 
+ Leonardo Couto - leocoutobrasil@gmail.com
  
 
 Project Link: https://github.com/TashfeenRao/instagram-clone.git
-Live Preview -
+Live Preview - https://tashfeenrao.github.io/instagram-clone/
 
 
 
