@@ -1279,6 +1279,7 @@
   .my-md-5 {
     margin-top: 3rem;
   }
+
   .mr-md-5,
   .mx-md-5 {
     margin-right: 3rem;
@@ -1470,6 +1471,7 @@
   .my-md-n2 {
     margin-top: -0.5rem;
   }
+
   .mr-md-n2,
   .mx-md-n2 {
     margin-right: -0.5rem;
@@ -2162,10 +2164,6 @@
 
 .border-dark {
   border-color: #343a40;
-}
-
-.border-white {
-  border-color: #fff;
 }
 
 .rounded-sm {
